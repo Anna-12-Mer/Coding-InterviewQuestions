@@ -6,8 +6,8 @@ function LongestWord(str){
     var longestWord = sen[0];
     for(let i =1 ; i<sen.length; i++){
         if(longestWord.length < sen[i].length){
-            longestWord = sen[i]
+            longestWord = sen[i]; 
         }
     }
-    return longestWord
+    return longestWord; 
 }
