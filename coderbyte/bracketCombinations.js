@@ -9,7 +9,7 @@
 function BracketCombinations(num){
     let fact = (n)=>{
         let k = 1;
-        for(let i = num ; i>=1; i--)
+        for(let i = n ; i>=1; i--)
             k*=i; 
         return k ; 
     }
